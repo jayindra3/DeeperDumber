@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Deeper Dumber</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="c" width="320" height="176"></canvas>
+  <div id="menu" class="ov">
+    <h1>DEEPER<br>DUMBER</h1>
+    <p>Ada pintu keluar. Pasti ada. Mungkin.</p>
+    <div id="sk" aria-label="Warna karakter"></div>
+    <button id="go">MULAI</button>
+  </div>
+  <div id="end" class="ov hide">
+    <h2 id="et"></h2>
+    <p id="ep"></p>
+    <button id="rt">ULANGI DARI AWAL</button>
+  </div>
+  <div id="toast"></div>
+  <div id="pad">
+    <div><button data-k="ArrowLeft">&#9664;</button> <button data-k="ArrowRight">&#9654;</button></div>
+    <button data-k="ArrowUp">&#9650;</button>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
